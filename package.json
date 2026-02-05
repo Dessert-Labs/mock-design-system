@@ -1,0 +1,13 @@
+{
+  "name": "mock-design-system",
+  "version": "1.0.0",
+  "description": "Mock design system for Clafoutis E2E testing",
+  "type": "module",
+  "scripts": {
+    "generate": "clafoutis generate"
+  },
+  "devDependencies": {
+    "@clafoutis/cli": "^1.0.0",
+    "style-dictionary": "^5.0.0"
+  }
+}

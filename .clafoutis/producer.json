@@ -1,0 +1,9 @@
+{
+  "tokens": "./tokens",
+  "output": "./build",
+  "generators": {
+    "tailwind": true,
+    "figma": true,
+    "brand-scss": "./generators/custom-scss.ts"
+  }
+}
