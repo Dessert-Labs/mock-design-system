@@ -17,7 +17,8 @@
         "$value": "#60a5fa"
       },
       "500": {
-        "$value": "#3b82f6"
+        "$value": "#2563eb",
+        "$description": "Updated primary-500 in v1.0.1"
       },
       "600": {
         "$value": "#2563eb"
