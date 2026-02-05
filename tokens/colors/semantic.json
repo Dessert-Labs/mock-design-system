@@ -1,0 +1,35 @@
+{
+  "$description": "Semantic color tokens for base mode",
+  "color": {
+    "background": {
+      "default": {
+        "$value": "{color.neutral.50}"
+      },
+      "subtle": {
+        "$value": "{color.neutral.100}"
+      },
+      "muted": {
+        "$value": "{color.neutral.200}"
+      }
+    },
+    "foreground": {
+      "default": {
+        "$value": "{color.neutral.900}"
+      },
+      "muted": {
+        "$value": "{color.neutral.600}"
+      },
+      "subtle": {
+        "$value": "{color.neutral.500}"
+      }
+    },
+    "border": {
+      "default": {
+        "$value": "{color.neutral.200}"
+      },
+      "muted": {
+        "$value": "{color.neutral.100}"
+      }
+    }
+  }
+}
