@@ -1,4 +1,5 @@
 {
+  "$description": "Core color primitives for the design system",
   "color": {
     "primary": {
       "50": {
@@ -162,4 +163,3 @@
     }
   }
 }
-
