@@ -1,0 +1,15 @@
+{
+  "name": "mock-design-system-checkout",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@clafoutis/cli": "^1.1.0"
+  }
+}
