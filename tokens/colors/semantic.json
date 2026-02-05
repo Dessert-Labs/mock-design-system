@@ -113,7 +113,7 @@
         "$value": "{color.amber.400}"
       },
       "500": {
-        "$value": "{color.amber.300}"
+        "$value": "{color.red.300}"
       },
       "600": {
         "$value": "{color.amber.600}"
