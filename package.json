@@ -9,5 +9,8 @@
   "devDependencies": {
     "@clafoutis/cli": "^1.0.0",
     "style-dictionary": "^5.0.0"
+  },
+  "dependencies": {
+    "@clafoutis/generators": "file:../../../Users/beau/Git_Downloads/clafoutis/packages/generators"
   }
 }
