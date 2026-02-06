@@ -22,6 +22,7 @@
       "primary": { "$type": "color", "$value": "{colors.slate.300}" },
       "secondary": { "$type": "color", "$value": "{colors.slate.400}" },
       "tertiary": { "$type": "color", "$value": "{colors.slate.500}" },
+      "elevated": { "$type": "color", "$value": "{colors.slate.400}" },
       "inset": { "$type": "color", "$value": "{colors.slate.100}" }
     },
     "border": {
