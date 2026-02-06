@@ -19,9 +19,9 @@
       "link": { "$type": "color", "$value": "{colors.blue.1100}" }
     },
     "surface": {
-      "primary": { "$type": "color", "$value": "{colors.slate.200}" },
-      "secondary": { "$type": "color", "$value": "{colors.slate.300}" },
-      "tertiary": { "$type": "color", "$value": "{colors.slate.400}" },
+      "primary": { "$type": "color", "$value": "{colors.slate.300}" },
+      "secondary": { "$type": "color", "$value": "{colors.slate.400}" },
+      "tertiary": { "$type": "color", "$value": "{colors.slate.500}" },
       "inset": { "$type": "color", "$value": "{colors.slate.100}" }
     },
     "border": {
