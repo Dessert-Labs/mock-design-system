@@ -29,7 +29,7 @@
       "warning": {
         "bg": { "$type": "color", "$value": "{colors.yellow.900}" },
         "hover": { "$type": "color", "$value": "{colors.yellow.1000}" },
-        "text": { "$type": "color", "$value": "{colors.slate.1200}" }
+        "text": { "$type": "color", "$value": "{colors.slate.100}" }
       },
       "info": {
         "bg": { "$type": "color", "$value": "{colors.blue.900}" },
