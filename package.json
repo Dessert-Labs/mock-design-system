@@ -10,6 +10,6 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "@clafoutis/cli": "^1.1.1"
+    "@clafoutis/cli": "^1.1.2"
   }
 }
