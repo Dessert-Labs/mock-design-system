@@ -1,128 +1,128 @@
 {
   "colors": {
     "background": {
-      "primary": { 
+      "primary": {
         "$type": "color",
-        "$value": "{colors.white.100}" 
+        "$value": "{colors.white.100}"
       },
-      "secondary": { 
+      "secondary": {
         "$type": "color",
-        "$value": "{colors.white.200}" 
+        "$value": "{colors.white.200}"
       },
-      "tertiary": { 
+      "tertiary": {
         "$type": "color",
-        "$value": "{colors.white.300}" 
+        "$value": "{colors.white.300}"
       },
-      "inverse": { 
+      "inverse": {
         "$type": "color",
-        "$value": "{colors.black.100}" 
+        "$value": "{colors.black.100}"
       }
     },
     "text": {
-      "base": { 
+      "base": {
         "$type": "color",
-        "$value": "{colors.black.100}" 
+        "$value": "{colors.black.100}"
       },
-      "primary": { 
+      "primary": {
         "$type": "color",
-        "$value": "{colors.black.100}" 
+        "$value": "{colors.black.100}"
       },
-      "secondary": { 
+      "secondary": {
         "$type": "color",
-        "$value": "{colors.gray.1100}" 
+        "$value": "{colors.gray.1100}"
       },
-      "tertiary": { 
+      "tertiary": {
         "$type": "color",
-        "$value": "{colors.gray.500}" 
+        "$value": "{colors.gray.500}"
       },
-      "inverse": { 
+      "inverse": {
         "$type": "color",
-        "$value": "{colors.white.200}" 
+        "$value": "{colors.white.200}"
       },
-      "accent": { 
+      "accent": {
         "$type": "color",
-        "$value": "{colors.blue.1000}" 
+        "$value": "{colors.blue.1000}"
       }
     },
     "surface": {
-      "primary": { 
+      "primary": {
         "$type": "color",
-        "$value": "{colors.white.200}" 
+        "$value": "{colors.white.200}"
       },
-      "secondary": { 
+      "secondary": {
         "$type": "color",
-        "$value": "{colors.white.100}" 
+        "$value": "{colors.white.100}"
       }
     },
     "border": {
-      "primary": { 
+      "primary": {
         "$type": "color",
-        "$value": "{colors.gray.1000}" 
+        "$value": "{colors.gray.1000}"
       },
-      "secondary": { 
+      "secondary": {
         "$type": "color",
-        "$value": "{colors.gray.600}" 
+        "$value": "{colors.gray.600}"
       },
-      "accent": { 
+      "accent": {
         "$type": "color",
-        "$value": "{colors.blue.1000}" 
+        "$value": "{colors.blue.1000}"
       },
-      "inverse": { 
+      "inverse": {
         "$type": "color",
-        "$value": "{colors.black.100}" 
+        "$value": "{colors.black.100}"
       }
     },
     "separator": {
-      "primary": { 
+      "primary": {
         "$type": "color",
-        "$value": "{colors.white.200}" 
+        "$value": "{colors.white.200}"
       },
-      "secondary": { 
+      "secondary": {
         "$type": "color",
-        "$value": "{colors.gray.1000}" 
+        "$value": "{colors.gray.1000}"
       }
     },
     "icon": {
-      "primary": { 
+      "primary": {
         "$type": "color",
-        "$value": "{colors.black.100}" 
+        "$value": "{colors.black.100}"
       },
-      "muted": { 
+      "muted": {
         "$type": "color",
-        "$value": "{colors.gray.100}" 
+        "$value": "{colors.gray.100}"
       },
-      "inverse": { 
+      "inverse": {
         "$type": "color",
-        "$value": "{colors.white.100}" 
+        "$value": "{colors.white.100}"
       },
-      "accent": { 
+      "accent": {
         "$type": "color",
-        "$value": "{colors.blue.1000}" 
+        "$value": "{colors.blue.1000}"
       }
     },
     "state": {
       "error": {
-        "primary": { 
+        "primary": {
           "$type": "color",
-          "$value": "{colors.red.600}" 
+          "$value": "{colors.red.900}"
         }
       },
       "warning": {
-        "primary": { 
+        "primary": {
           "$type": "color",
-          "$value": "{colors.yellow.600}" 
+          "$value": "{colors.yellow.900}"
         }
       },
       "info": {
-        "primary": { 
+        "primary": {
           "$type": "color",
-          "$value": "{colors.blue.600}" 
+          "$value": "{colors.blue.900}"
         }
       },
       "success": {
-        "primary": { 
+        "primary": {
           "$type": "color",
-          "$value": "{colors.green.600}" 
+          "$value": "{colors.green.900}"
         }
       }
     }
