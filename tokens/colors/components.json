@@ -176,6 +176,9 @@
       "bg": { "$type": "color", "$value": "{colors.surface.primary}" },
       "border": { "$type": "color", "$value": "{colors.border.primary}" },
       "text": { "$type": "color", "$value": "{colors.text.primary}" },
+      "item": {
+        "bg": { "$type": "color", "$value": "transparent" }
+      },
       "hover": { "$type": "color", "$value": "{colors.slate.300}" },
       "active": { "$type": "color", "$value": "{colors.slate.400}" },
       "separator": { "$type": "color", "$value": "{colors.separator.primary}" }
@@ -198,6 +201,7 @@
         "bg": { "$type": "color", "$value": "{colors.slate.300}" }
       },
       "trigger": {
+        "bg": { "$type": "color", "$value": "transparent" },
         "text": { "$type": "color", "$value": "{colors.slate.900}" },
         "hover": { "$type": "color", "$value": "{colors.text.primary}" }
       },
@@ -254,16 +258,18 @@
       }
     },
     "pagination": {
-      "bg": { "$type": "color", "$value": "transparent" },
-      "text": { "$type": "color", "$value": "{colors.text.primary}" },
-      "border": { "$type": "color", "$value": "{colors.border.primary}" },
-      "hover": { "$type": "color", "$value": "{colors.slate.300}" },
+      "item": {
+        "bg": { "$type": "color", "$value": "transparent" },
+        "text": { "$type": "color", "$value": "{colors.text.primary}" },
+        "border": { "$type": "color", "$value": "{colors.border.primary}" },
+        "hover": { "$type": "color", "$value": "{colors.slate.300}" },
+        "disabled": {
+          "text": { "$type": "color", "$value": "{colors.text.disabled}" }
+        }
+      },
       "active": {
         "bg": { "$type": "color", "$value": "{colors.slate.1200}" },
         "text": { "$type": "color", "$value": "{colors.slate.100}" }
-      },
-      "disabled": {
-        "text": { "$type": "color", "$value": "{colors.text.disabled}" }
       }
     },
     "progress": {

@@ -5,7 +5,7 @@
       "secondary": { "$type": "color", "$value": "{colors.slate.200}" },
       "tertiary": { "$type": "color", "$value": "{colors.slate.500}" },
       "inverse": { "$type": "color", "$value": "{colors.slate.100}" },
-      "overlay": { "$type": "color", "$value": "rgba(0, 0, 0, 0.7)" }
+      "overlay": { "$type": "color", "$value": "{colors.blackAlpha.900}" }
     },
     "text": {
       "base": { "$type": "color", "$value": "{colors.slate.1200}" },
