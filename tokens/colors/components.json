@@ -195,10 +195,10 @@
     },
     "tabs": {
       "list": {
-        "bg": { "$type": "color", "$value": "{colors.slate.200}" }
+        "bg": { "$type": "color", "$value": "{colors.slate.300}" }
       },
       "trigger": {
-        "text": { "$type": "color", "$value": "{colors.text.secondary}" },
+        "text": { "$type": "color", "$value": "{colors.slate.900}" },
         "hover": { "$type": "color", "$value": "{colors.text.primary}" }
       },
       "active": {
