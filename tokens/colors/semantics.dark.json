@@ -11,7 +11,7 @@
       },
       "tertiary": {
         "$type": "color",
-        "$value": "{colors.slate.400}"
+        "$value": "{colors.slate.500}"
       },
       "inverse": {
         "$type": "color",
