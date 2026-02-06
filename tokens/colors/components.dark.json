@@ -7,8 +7,8 @@
         "text": { "$type": "color", "$value": "{colors.text.inverse}" }
       },
       "secondary": {
-        "bg": { "$type": "color", "$value": "{colors.background.secondary}" },
-        "hover": { "$type": "color", "$value": "{colors.black.300}" },
+        "bg": { "$type": "color", "$value": "{colors.gray.600}" },
+        "hover": { "$type": "color", "$value": "{colors.gray.700}" },
         "text": { "$type": "color", "$value": "{colors.text.primary}" }
       },
       "accent": {
@@ -50,7 +50,10 @@
       },
       "success": {
         "bg": { "$type": "color", "$value": "{colors.gray.800}" },
-        "fill": { "$type": "color", "$value": "{colors.state.success.primary}" },
+        "fill": {
+          "$type": "color",
+          "$value": "{colors.state.success.primary}"
+        },
         "hover": { "$type": "color", "$value": "{colors.green.1000}" }
       },
       "error": {
@@ -60,7 +63,10 @@
       },
       "warning": {
         "bg": { "$type": "color", "$value": "{colors.gray.800}" },
-        "fill": { "$type": "color", "$value": "{colors.state.warning.primary}" },
+        "fill": {
+          "$type": "color",
+          "$value": "{colors.state.warning.primary}"
+        },
         "hover": { "$type": "color", "$value": "{colors.yellow.1000}" }
       }
     }

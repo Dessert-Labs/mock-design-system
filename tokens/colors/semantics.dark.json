@@ -47,11 +47,11 @@
     "surface": {
       "primary": {
         "$type": "color",
-        "$value": "{colors.black.200}"
+        "$value": "{colors.gray.300}"
       },
       "secondary": {
         "$type": "color",
-        "$value": "{colors.black.100}"
+        "$value": "{colors.gray.200}"
       }
     },
     "border": {
