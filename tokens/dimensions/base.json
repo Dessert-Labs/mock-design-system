@@ -1,4 +1,36 @@
 {
+  "borderRadius": {
+    "full": {
+      "$type": "dimension",
+      "$value": "9999px"
+    },
+    "lg": {
+      "$type": "dimension",
+      "$value": "12px"
+    },
+    "md": {
+      "$type": "dimension",
+      "$value": "8px"
+    },
+    "none": {
+      "$type": "dimension",
+      "$value": "0px"
+    },
+    "sm": {
+      "$type": "dimension",
+      "$value": "4px"
+    }
+  },
+  "maxWidth": {
+    "container": {
+      "$type": "dimension",
+      "$value": "1200px"
+    },
+    "content": {
+      "$type": "dimension",
+      "$value": "800px"
+    }
+  },
   "spacing": {
     "0": {
       "$type": "dimension",
@@ -23,40 +55,6 @@
     "5": {
       "$type": "dimension",
       "$value": "32px"
-    }
-  },
-
-  "borderRadius": {
-    "none": {
-      "$type": "dimension",
-      "$value": "0px"
-    },
-    "sm": {
-      "$type": "dimension",
-      "$value": "4px"
-    },
-    "md": {
-      "$type": "dimension",
-      "$value": "8px"
-    },
-    "lg": {
-      "$type": "dimension",
-      "$value": "12px"
-    },
-    "full": {
-      "$type": "dimension",
-      "$value": "9999px"
-    }
-  },
-
-  "maxWidth": {
-    "container": {
-      "$type": "dimension",
-      "$value": "1200px"
-    },
-    "content": {
-      "$type": "dimension",
-      "$value": "800px"
     }
   }
 }
