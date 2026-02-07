@@ -17,82 +17,82 @@
   },
 
   "fontSize": {
-    "xs": { 
+    "xs": {
       "$type": "dimension",
-      "$value": "12px" 
+      "$value": "12px"
     },
-    "sm": { 
+    "sm": {
       "$type": "dimension",
-      "$value": "14px" 
+      "$value": "14px"
     },
-    "base": { 
+    "base": {
       "$type": "dimension",
-      "$value": "16px" 
+      "$value": "16px"
     },
-    "lg": { 
+    "lg": {
       "$type": "dimension",
-      "$value": "18px" 
+      "$value": "18px"
     },
-    "xl": { 
+    "xl": {
       "$type": "dimension",
-      "$value": "20px" 
+      "$value": "20px"
     },
-    "2xl": { 
+    "2xl": {
       "$type": "dimension",
-      "$value": "24px" 
+      "$value": "24px"
     },
-    "3xl": { 
+    "3xl": {
       "$type": "dimension",
-      "$value": "30px" 
+      "$value": "30px"
     }
   },
 
   "fontWeight": {
-    "normal": { 
+    "normal": {
       "$type": "fontWeight",
-      "$value": "400" 
+      "$value": "400"
     },
-    "medium": { 
+    "medium": {
       "$type": "fontWeight",
-      "$value": "500" 
+      "$value": "500"
     },
-    "semibold": { 
+    "semibold": {
       "$type": "fontWeight",
-      "$value": "700" 
+      "$value": "700"
     },
-    "bold": { 
+    "bold": {
       "$type": "fontWeight",
-      "$value": "900" 
+      "$value": "900"
     }
   },
 
   "lineHeight": {
-    "normal": { 
+    "normal": {
       "$type": "dimension",
-      "$value": "1.25" 
+      "$value": "1.25"
     },
-    "heading": { 
+    "heading": {
       "$type": "dimension",
-      "$value": "1.1" 
+      "$value": "1.1"
     },
-    "tight": { 
+    "tight": {
       "$type": "dimension",
-      "$value": "1" 
+      "$value": "1"
     }
   },
 
   "letterSpacing": {
-    "normal": { 
+    "normal": {
       "$type": "dimension",
-      "$value": "0em" 
+      "$value": "0em"
     },
-    "narrow": { 
+    "narrow": {
       "$type": "dimension",
-      "$value": "-0.5px" 
+      "$value": "-0.5px"
     },
-    "wide": { 
+    "wide": {
       "$type": "dimension",
-      "$value": "0.5px" 
+      "$value": "0.5px"
     }
   }
 }
