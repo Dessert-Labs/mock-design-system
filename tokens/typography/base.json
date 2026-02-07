@@ -1,6 +1,5 @@
 {
   "$type": "typography",
-
   "fontFamily": {
     "base": {
       "$type": "fontFamily",
@@ -15,84 +14,80 @@
       "$value": "Fira Code, Courier New, monospace"
     }
   },
-
   "fontSize": {
-    "xs": { 
+    "2xl": {
       "$type": "dimension",
-      "$value": "12px" 
+      "$value": "24px"
     },
-    "sm": { 
+    "3xl": {
       "$type": "dimension",
-      "$value": "14px" 
+      "$value": "30px"
     },
-    "base": { 
+    "base": {
       "$type": "dimension",
-      "$value": "16px" 
+      "$value": "16px"
     },
-    "lg": { 
+    "lg": {
       "$type": "dimension",
-      "$value": "18px" 
+      "$value": "18px"
     },
-    "xl": { 
+    "sm": {
       "$type": "dimension",
-      "$value": "20px" 
+      "$value": "14px"
     },
-    "2xl": { 
+    "xl": {
       "$type": "dimension",
-      "$value": "24px" 
+      "$value": "20px"
     },
-    "3xl": { 
+    "xs": {
       "$type": "dimension",
-      "$value": "30px" 
+      "$value": "12px"
     }
   },
-
   "fontWeight": {
-    "normal": { 
+    "bold": {
       "$type": "fontWeight",
-      "$value": "400" 
+      "$value": "900"
     },
-    "medium": { 
+    "medium": {
       "$type": "fontWeight",
-      "$value": "500" 
+      "$value": "500"
     },
-    "semibold": { 
+    "normal": {
       "$type": "fontWeight",
-      "$value": "700" 
+      "$value": "400"
     },
-    "bold": { 
+    "semibold": {
       "$type": "fontWeight",
-      "$value": "900" 
+      "$value": "700"
     }
   },
-
-  "lineHeight": {
-    "normal": { 
-      "$type": "dimension",
-      "$value": "1.25" 
-    },
-    "heading": { 
-      "$type": "dimension",
-      "$value": "1.1" 
-    },
-    "tight": { 
-      "$type": "dimension",
-      "$value": "1" 
-    }
-  },
-
   "letterSpacing": {
-    "normal": { 
+    "narrow": {
       "$type": "dimension",
-      "$value": "0em" 
+      "$value": "-0.5px"
     },
-    "narrow": { 
+    "normal": {
       "$type": "dimension",
-      "$value": "-0.5px" 
+      "$value": "0em"
     },
-    "wide": { 
+    "wide": {
       "$type": "dimension",
-      "$value": "0.5px" 
+      "$value": "0.5px"
+    }
+  },
+  "lineHeight": {
+    "heading": {
+      "$type": "dimension",
+      "$value": "1.1"
+    },
+    "normal": {
+      "$type": "dimension",
+      "$value": "1.25"
+    },
+    "tight": {
+      "$type": "dimension",
+      "$value": "1"
     }
   }
 }
