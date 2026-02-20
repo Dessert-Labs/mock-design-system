@@ -755,6 +755,12 @@
           "$value": "{colors.yellow.1000}"
         }
       }
+    },
+    "red": {
+      "2100": {
+        "$type": "color",
+        "$value": "#ff0000"
+      }
     }
   }
 }
