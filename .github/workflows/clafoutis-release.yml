@@ -5,9 +5,39 @@ on:
     branches: [main]
     paths:
       - 'tokens/**'
+  pull_request:
+    branches: [main]
+    paths:
+      - 'tokens/**'
 
 jobs:
+  validate:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+
+      - name: Install Clafoutis
+        run: npm install -D @clafoutis/cli
+
+      - name: Check token file formatting
+        run: npx clafoutis format --tokens tokens --check
+
+      - name: Generate tokens
+        run: npx clafoutis generate
+
+      - name: Build project (if build script exists)
+        run: npm run build --if-present
+
   release:
+    if: github.event_name == 'push'
+    needs: validate
     runs-on: ubuntu-latest
     permissions:
       contents: write
@@ -23,9 +53,6 @@ jobs:
 
       - name: Install Clafoutis
         run: npm install -D @clafoutis/cli
-
-      - name: Generate tokens
-        run: npx clafoutis generate
 
       - name: Get next version
         id: version
