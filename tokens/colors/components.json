@@ -4,7 +4,7 @@
       "primary": {
         "bg": {
           "$type": "color",
-          "$value": "#196bbe"
+          "$value": "{colors.slate.200}"
         },
         "hover": {
           "$type": "color",

@@ -4,15 +4,15 @@
       "primary": {
         "bg": {
           "$type": "color",
-          "$value": "{colors.slate.1200}"
+          "$value": "{colors.slate.200}"
         },
         "hover": {
           "$type": "color",
-          "$value": "{colors.slate.1100}"
+          "$value": "{colors.slate.300}"
         },
         "text": {
           "$type": "color",
-          "$value": "{colors.text.inverse}"
+          "$value": "{colors.text.primary}"
         }
       },
       "secondary": {
