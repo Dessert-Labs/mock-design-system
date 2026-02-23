@@ -4,7 +4,7 @@
       "primary": {
         "bg": {
           "$type": "color",
-          "$value": "{colors.slate.200}"
+          "$value": "#0000fa"
         },
         "hover": {
           "$type": "color",
@@ -16,6 +16,20 @@
         }
       },
       "secondary": {
+        "bg": {
+          "$type": "color",
+          "$value": "{colors.slate.300}"
+        },
+        "hover": {
+          "$type": "color",
+          "$value": "{colors.slate.400}"
+        },
+        "text": {
+          "$type": "color",
+          "$value": "{colors.text.primary}"
+        }
+      },
+      "tertiary": {
         "bg": {
           "$type": "color",
           "$value": "{colors.slate.300}"
