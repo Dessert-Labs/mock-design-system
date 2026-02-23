@@ -4,11 +4,11 @@
       "primary": {
         "bg": {
           "$type": "color",
-          "$value": "{colors.slate.200}"
+          "$value": "#0a0af0"
         },
         "hover": {
           "$type": "color",
-          "$value": "{colors.slate.300}"
+          "$value": "#0b0bf9"
         },
         "text": {
           "$type": "color",
