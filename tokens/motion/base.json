@@ -44,52 +44,102 @@
   "easing": {
     "linear": {
       "$type": "cubicBezier",
-      "$value": [0, 0, 1, 1],
+      "$value": [
+        0,
+        0,
+        1,
+        1
+      ],
       "$description": "Constant speed — progress bars, loaders"
     },
     "default": {
       "$type": "cubicBezier",
-      "$value": [0.4, 0, 0.2, 1],
+      "$value": [
+        0.4,
+        0,
+        0.2,
+        1
+      ],
       "$description": "General-purpose ease — smooth and natural"
     },
     "in": {
       "$type": "cubicBezier",
-      "$value": [0.4, 0, 1, 1],
+      "$value": [
+        0.4,
+        0,
+        1,
+        1
+      ],
       "$description": "Accelerate — elements leaving the screen"
     },
     "out": {
       "$type": "cubicBezier",
-      "$value": [0, 0, 0.2, 1],
+      "$value": [
+        0,
+        0,
+        0.2,
+        1
+      ],
       "$description": "Decelerate — elements entering the screen"
     },
     "inOut": {
       "$type": "cubicBezier",
-      "$value": [0.4, 0, 0.2, 1],
+      "$value": [
+        0.4,
+        0,
+        0.2,
+        1
+      ],
       "$description": "Symmetric ease — expand/collapse, resize"
     },
     "spring": {
       "$type": "cubicBezier",
-      "$value": [0.175, 0.885, 0.32, 1.275],
+      "$value": [
+        0.175,
+        0.885,
+        0.32,
+        1.275
+      ],
       "$description": "Overshoot bounce — buttons, toasts, playful UI"
     },
     "bounce": {
       "$type": "cubicBezier",
-      "$value": [0.34, 1.56, 0.64, 1],
+      "$value": [
+        0.34,
+        1.56,
+        0.64,
+        1
+      ],
       "$description": "Strong overshoot — attention-grabbing entrances"
     },
     "snappy": {
       "$type": "cubicBezier",
-      "$value": [0.2, 0, 0, 1],
+      "$value": [
+        0.2,
+        0,
+        0,
+        1
+      ],
       "$description": "Quick start, gentle stop — tabs, nav, chips"
     },
     "gentle": {
       "$type": "cubicBezier",
-      "$value": [0.25, 0.1, 0.25, 1],
+      "$value": [
+        0.25,
+        0.1,
+        0.25,
+        1
+      ],
       "$description": "Soft, subtle ease — tooltips, fades"
     },
     "expressive": {
       "$type": "cubicBezier",
-      "$value": [0.16, 1, 0.3, 1],
+      "$value": [
+        0.16,
+        1,
+        0.3,
+        1
+      ],
       "$description": "Dramatic deceleration — hero sections, modals"
     }
   },
