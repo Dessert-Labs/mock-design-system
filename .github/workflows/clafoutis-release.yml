@@ -67,6 +67,9 @@ jobs:
             echo "version=${MAJOR}.${MINOR}.${PATCH}" >> $GITHUB_OUTPUT
           fi
 
+      - name: Generate tokens
+        run: npx clafoutis generate
+
       - name: Prepare release assets
         run: |
           mkdir -p release-assets
